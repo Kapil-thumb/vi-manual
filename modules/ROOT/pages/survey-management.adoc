@@ -10,19 +10,19 @@ image::media/media/image56.png[image,width=755,height=377,role="image-custom"]
 
 {blank}
 
-* image:media/icon/1.svg[selcting officer, 16, 16] *Search*: Quickly find a survey by entering relevant keywords into
+* image:media/icon/1.svg[selcting officer, 20, 20] *Search*: Quickly find a survey by entering relevant keywords into
 the search bar.
 
-* image:media/icon/2.svg[selcting officer, 16, 16] *Add New Survey:* Create and add a survey to the system using the
+* image:media/icon/2.svg[selcting officer, 20, 20] *Add New Survey:* Create and add a survey to the system using the
 'Add new' button.
 
-* image:media/icon/3.svg[selcting officer, 16, 16] *Created On:* Organise and view surveys by their creation date,
+* image:media/icon/3.svg[selcting officer, 20, 20] *Created On:* Organise and view surveys by their creation date,
 which can be sorted using the arrow icon.
 
-* image:media/icon/4.svg[selcting officer, 16, 16] *Updated On:* Sort surveys by the most recent updates to keep track
+* image:media/icon/4.svg[selcting officer, 20, 20] *Updated On:* Sort surveys by the most recent updates to keep track
 of the latest changes.
 
-* image:media/icon/5.svg[selcting officer, 16, 16] *Action:* Edit, duplicate, or delete surveys as needed by clicking
+* image:media/icon/5.svg[selcting officer, 20, 20] *Action:* Edit, duplicate, or delete surveys as needed by clicking
 the action button represented by three vertical dots.
 
 <<<
@@ -37,7 +37,7 @@ image::media/media/image57.png[image,width=755,height=302,role="image-custom"]
 
 == Title
 
-* Click into the 'Title' field image:media/icon/1.svg[selcting officer, 16, 16].
+* Click into the 'Title' field image:media/icon/1.svg[selcting officer, 20, 20].
 
 * This is a mandatory field. Enter a concise yet descriptive title for
 the survey. The title should give a clear indication of the survey's
@@ -45,7 +45,7 @@ purpose or the operation it is associated with
 
 == Description
 
-* Click into the 'Description' field image:media/icon/2.svg[selcting officer, 16, 16].
+* Click into the 'Description' field image:media/icon/2.svg[selcting officer, 20, 20].
 
 * While this field is optional, providing a detailed description can be
 very helpful. Describe the objective of the survey, the type of
@@ -71,7 +71,7 @@ image::media/media/image58.png[image,width=566,height=377,role="image-custom"]
 
 {blank}
 
-=== In the 'Automatic Responses' section, image:media/icon/3.svg[selcting officer, 16, 16], you will see a list of data fields.
+=== In the 'Automatic Responses' section, image:media/icon/3.svg[selcting officer, 20, 20], you will see a list of data fields.
 
 * Select the checkboxes next to each piece of information you wish to be
 automatically included in the survey response. This could include the
@@ -83,7 +83,7 @@ duration, and whether the patrol was successful.
 as questions for the officer to answer. Instead, they are silently
 captured in the background for administrative and analytical purposes.
 
-==== Add New Section image:media/icon/4.svg[selcting officer, 16, 16]
+==== Add New Section image:media/icon/4.svg[selcting officer, 20, 20]
 
 * This will allow you to create additional sections within the survey,
 where you can pose questions tailored to the specific objectives of the
@@ -99,14 +99,14 @@ image::media/media/image59.png[image,width=601,height=162,role="image-custom"]
 {blank}
 
 * To rename the header of this section, click on the edit box text that
-is labelled image:media/icon/5.svg[selcting officer, 16, 16]. This is the section title, which you can edit to
+is labelled image:media/icon/5.svg[selcting officer, 20, 20]. This is the section title, which you can edit to
 reflect the content or focus of the questions you plan to include in
 this part of the survey.
 
 === Add New Questions
 
 * To begin populating the section with questions, click on the '+ Add
-new question' button, indicated by image:media/icon/6.svg[selcting officer, 16, 16].
+new question' button, indicated by image:media/icon/6.svg[selcting officer, 20, 20].
 
 * Upon clicking, you will be presented with a list of available question
 types. Choose the questions that are most appropriate for the section or
@@ -215,8 +215,8 @@ ensuring clarity in the survey’s flow.
 * *Branching Restrictions:* Questions of the type 'String' (text input)
 and 'Geolocation' (location selection) only allow default branching to
 another question and do not allow question branching. The image below
-shows the difference between these 2 types of branching options. image:media/icon/1.svg[selcting officer, 16, 16] Is
-default main level branching and image:media/icon/2.svg[selcting officer, 16, 16] is the question response branching.
+shows the difference between these 2 types of branching options. image:media/icon/1.svg[selcting officer, 20, 20] Is
+default main level branching and image:media/icon/2.svg[selcting officer, 20, 20] is the question response branching.
 The image below shows how this is presented:
 
 {blank}
@@ -243,8 +243,8 @@ image::media/media/image61.png[image,width=415,height=415,role="image-custom"]
 
 {blank}
 
-* image:media/icon/1.svg[selcting officer, 16, 16] Add a new question
-* image:media/icon/2.svg[selcting officer, 16, 16] Click on Yes/No
+* image:media/icon/1.svg[selcting officer, 20, 20] Add a new question
+* image:media/icon/2.svg[selcting officer, 20, 20] Click on Yes/No
 
 {blank}
 
@@ -252,9 +252,9 @@ image::media/media/image62.png[image,width=755,height=529,role="image-custom"]
 
 {blank}
 
-* image:media/icon/3.svg[selcting officer, 16, 16] Complete the question title
-* image:media/icon/4.svg[selcting officer, 16, 16] Decide if the answer should be pre-selected to be “yes”
-* image:media/icon/5.svg[selcting officer, 16, 16] Add the next question and choose “Number”. The add branch will be
+* image:media/icon/3.svg[selcting officer, 20, 20] Complete the question title
+* image:media/icon/4.svg[selcting officer, 20, 20] Decide if the answer should be pre-selected to be “yes”
+* image:media/icon/5.svg[selcting officer, 20, 20] Add the next question and choose “Number”. The add branch will be
 disabled until there is at least one other question is available to be
 branched to.
 
@@ -264,8 +264,8 @@ image::media/media/image63.png[image,width=755,height=491,role="image-custom"]
 
 {blank}
 
-* image:media/icon/6.svg[selcting officer, 16, 16] This is the question number
-* image:media/icon/7.svg[selcting officer, 16, 16] Complete the question title and add another question and complete
+* image:media/icon/6.svg[selcting officer, 20, 20] This is the question number
+* image:media/icon/7.svg[selcting officer, 20, 20] Complete the question title and add another question and complete
 the title.
 
 {blank}
@@ -274,8 +274,8 @@ image::media/media/image64.png[image,width=755,height=529,role="image-custom"]
 
 {blank}
 
-* image:media/icon/8.svg[selcting officer, 16, 16] Go back to Question 01 and
-* image:media/icon/9.svg[selcting officer, 16, 16] Add 2 “equals” branches.
+* image:media/icon/8.svg[selcting officer, 20, 20] Go back to Question 01 and
+* image:media/icon/9.svg[selcting officer, 20, 20] Add 2 “equals” branches.
 
 {blank}
 
@@ -285,8 +285,8 @@ image::media/media/image65.png[image,width=755,height=453,role="image-custom"]
 
 <<<
 
-* image:media/icon/10.svg[selcting officer, 16, 16] Now configure the branch (10)
-* image:media/icon/11.svg[selcting officer, 16, 16] Select target (11)
+* image:media/icon/10.svg[selcting officer, 20, 20] Now configure the branch (10)
+* image:media/icon/11.svg[selcting officer, 20, 20] Select target (11)
 
 {blank}
 
@@ -306,7 +306,7 @@ image::media/media/image67.png[image,width=755,height=529,role="image-custom"]
 
 <<<
 
-* image:media/icon/12.svg[selcting officer, 16, 16] To complete the survey, click “Save”.
+* image:media/icon/12.svg[selcting officer, 20, 20] To complete the survey, click “Save”.
 
 {blank}
 
