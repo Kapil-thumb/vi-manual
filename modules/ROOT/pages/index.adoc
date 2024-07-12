@@ -1,0 +1,10 @@
+[[introduction]]
+= 1. Introduction
+
+Visibeat is a powerful application designed specifically for hotspot
+policing. The system utilises interactive maps, real-time data, and
+targeted patrols to help police forces proactively address high-crime
+areas and improve public safety. By assigning officers to specific
+geofences for designated time periods and requiring them to complete
+surveys detailing their observations, Visibeat enables data-driven
+decision-making and optimises resource allocation.
