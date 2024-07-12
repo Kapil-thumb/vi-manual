@@ -25,7 +25,7 @@ duty.
 
 <<<
 
-=== Search Functionality
+== Search Functionality
 
 
 Utilise the search bar to find officers by name or collar number.
@@ -38,7 +38,7 @@ image:./media/media/image22.png[image,width=755,height=453,role="image-custom"]
 
 <<<
 
-=== Filter Options
+== Filter Options
 
 {blank}
 
@@ -55,7 +55,7 @@ filters, you can create a focused list tailored to your search criteria.
 
 '''
 
-=== Applying Filters:
+== Applying Filters:
 
 To apply a filter, click on the filter category and select your criteria
 from the dropdown menu or check the corresponding boxes. Your list will
@@ -64,20 +64,20 @@ filters at once for a more precise refinement.
 
 '''
 
-=== Adjusting and Clearing Filters:
+== Adjusting and Clearing Filters:
 
 Filters can be adjusted at any time during your search. To remove a
 specific filter, simply deselect it or use the 'Clear' option to remove
 all filters and start anew. This flexibility allows you to seamlessly
 switch between broad overviews and granular views of officer data.
 
-=== Tips
+== Tips
 * Use multiple filters simultaneously for the most effective narrowing of officer data.
 * Remember to clear filters to return to the full officer list when needed. 
 
 '''
 
-=== Individual Officer Actions
+== Individual Officer Actions
 
 {blank}
 
@@ -159,7 +159,7 @@ image:./media/media/image31.png[image,width=280,height=180,role="image-custom"]
 
 <<<
 
-=== Officer Details
+== Officer Details
 
 {blank}
 
@@ -167,7 +167,7 @@ image:./media/media/image32.png[image,width=755,height=453,role="image-custom"]
 
 {blank}
 
-===== How to Import and Assign Officers in the System
+=== How to Import and Assign Officers in the System
 
 To streamline the integration of officers from your Active Directory
 (AD) into the application, we offer two import methods:
@@ -254,7 +254,7 @@ image:./media/media/image37.png[image,width=286,height=302,role="image-custom"]
 
 <<<
 
-===== Roles and Permissions
+=== Roles and Permissions
 
 [cols="<1,2,1,1,1,1", options="header"]
 |===
@@ -388,7 +388,7 @@ image:./media/media/image37.png[image,width=286,height=302,role="image-custom"]
 
 <<<
 
-===== Importing officer’s configuration
+=== Importing officer’s configuration
 
 {blank}
 
@@ -419,7 +419,7 @@ responsible for.
 
 <<<
 
-===== Bulk Assignment of Teams, Geofences and Roles
+=== Bulk Assignment of Teams, Geofences and Roles
 
 * The system also allows for bulk updates of the team, geofence, or role
 for multiple officers:

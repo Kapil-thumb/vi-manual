@@ -53,7 +53,7 @@ officers on their objectives during the patrol.
 
 <<<
 
-=== Patrol Overview
+== Patrol Overview
 
 This screen displays the "Patrols" section within the Visibeat
 application, where users can manage various types of patrols—either
@@ -193,7 +193,7 @@ image:./media/media/image74.png[image,width=902,height=280,role="image-custom"]
 
 <<<
 
-=== Adding and Configuring a New Operational Patrol
+== Adding and Configuring a New Operational Patrol
 
 The operational configuration parameters are the same as the default
 patrols, together with the following 5 scheduling parameters as

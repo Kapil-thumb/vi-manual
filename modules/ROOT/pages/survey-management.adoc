@@ -27,7 +27,7 @@ the action button represented by three vertical dots.
 
 <<<
 
-=== Creating a New Survey
+== Creating a New Survey
 
 {blank}
 
@@ -35,7 +35,7 @@ image:./media/media/image57.png[image,width=755,height=302,role="image-custom"]
 
 {blank}
 
-==== Title:
+== Title
 
 * Click into the 'Title' field image:./media/icon/1.svg[selcting officer, 16, 16].
 
@@ -43,7 +43,7 @@ image:./media/media/image57.png[image,width=755,height=302,role="image-custom"]
 the survey. The title should give a clear indication of the survey's
 purpose or the operation it is associated with
 
-==== Description:
+== Description
 
 * Click into the 'Description' field image:./media/icon/2.svg[selcting officer, 16, 16].
 
@@ -54,7 +54,7 @@ might need when completing the survey.
 
 <<<
 
-=== Automatic Data Collection
+== Automatic Data Collection
 
 To streamline the survey process and enhance the efficiency of data
 collection within the application, the 'Automatic Responses' feature has
@@ -71,7 +71,7 @@ image:./media/media/image58.png[image,width=566,height=377,role="image-custom"]
 
 {blank}
 
-==== In the 'Automatic Responses' section, image:./media/icon/3.svg[selcting officer, 16, 16], you will see a list of data fields.
+=== In the 'Automatic Responses' section, image:./media/icon/3.svg[selcting officer, 16, 16], you will see a list of data fields.
 
 * Select the checkboxes next to each piece of information you wish to be
 automatically included in the survey response. This could include the
@@ -103,7 +103,7 @@ is labelled image:./media/icon/5.svg[selcting officer, 16, 16]. This is the sect
 reflect the content or focus of the questions you plan to include in
 this part of the survey.
 
-==== Add New Questions:
+=== Add New Questions
 
 * To begin populating the section with questions, click on the '+ Add
 new question' button, indicated by image:./media/icon/6.svg[selcting officer, 16, 16].
@@ -121,7 +121,7 @@ detailed sections or adding multiple questions.
 
 <<<
 
-=== Supported Question Types
+== Supported Question Types
 
 Different question types are used in surveys to match the right kind of
 information being asked—like numbers for counting, yes/no for quick
@@ -175,13 +175,13 @@ during an incident or patrol.
 
 |===
 
-=== Branching Rules and Validations
+== Branching Rules and Validations
 
 To ensure the survey form creation process is both efficient and
 logical, a set of rules and validations are in place. These guidelines
 are designed to streamline the creation of surveys.
 
-==== General Rules for Structure:
+=== General Rules for Structure
 
 * *Minimum Question Requirement:* Each section within the survey must
 contain at least one question. This ensures that every part of the
@@ -206,7 +206,7 @@ actions, the survey will automatically proceed to the next question.
 However, this default progression can be changed to redirect to a
 different question or section as needed.
 
-==== Branching Actions and Logic:
+=== Branching Actions and Logic
 
 * *No Duplicate Actions:* Within the branching logic, you can't have
 repeated actions. Each branch action must lead to a unique next step,
@@ -232,7 +232,7 @@ survey questions when possible.
 
 <<<
 
-=== Creating a Branched Question Survey
+== Creating a Branched Question Survey
 
 Following on from the previous steps we will now create the following
 Yes/No example survey:

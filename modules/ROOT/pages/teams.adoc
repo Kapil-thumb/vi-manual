@@ -34,7 +34,7 @@ tools to filter and search for teams, ensuring you can quickly find and
 manage teams according to your operational needs.
 
 
-=== Team Overview
+== Team Overview
 
 * *Add New Team:* Click the '+ Add New' button to create a new team.
 
@@ -55,7 +55,7 @@ team.
 
 <<<
 
-===== Editing a Team
+=== Editing a Team
 
 image:./media/media/image41.png[image,width=755,height=302,role="image-custom"]
 
@@ -79,7 +79,7 @@ which are part of that team
 image:./media/media/image42.png[image,width=250,height=280,role="image-custom"]
 
 
-===== Additional Functionalities
+=== Additional Functionalities
 
 * *Sending Surveys:* Send out surveys to teams for feedback or
 information gathering. The survey will be sent immediately and is not
@@ -90,7 +90,7 @@ by using the delete option in the action menu.
 
 '''
 
-=== Assigning Geofences to a Team
+== Assigning Geofences to a Team
 
 The 'Select geofences' flyout in the Visibeat application provides a
 straightforward process for allocating geofences to teams.
@@ -112,7 +112,7 @@ image:./media/media/image44.png[image,width=755,height=377,role="image-custom"]
 
 {blank}
 
-===== Navigating the Geofence List
+=== Navigating the Geofence List
 
 image:./media/icon/1.svg[selcting officer, 16, 16]&#160; *Search Functionality:* Use the search bar to find geofences by name
 quickly. This is useful when you know the specific geofences you wish
@@ -128,7 +128,7 @@ by their status:
 Selection: Tick the checkboxes next to each geofence name to select or
 deselect them for assignment.
 
-===== Assigning and Saving
+=== Assigning and Saving
 
 * After making your selections, review the total count of selected
 geofences indicated at the bottom of the flyout image:./media/icon/3.svg[selcting officer, 16, 16].
@@ -137,7 +137,7 @@ geofences indicated at the bottom of the flyout image:./media/icon/3.svg[selctin
 'Save' button. It's essential to save to apply any changes you've
 made.
 
-===== Additional Tips
+=== Additional Tips
 
 * *Inactive Geofences:* Geofences labelled as 'Inactive' are not
 currently in use. Assigning inactive geofences is still possible but
@@ -155,7 +155,7 @@ operational needs.
 
 <<<
 
-=== Bulk Actions for Team Management
+== Bulk Actions for Team Management
 
 {blank}
 
@@ -166,7 +166,7 @@ image:./media/media/image45.png[image,width=680,height=491,role="image-custom"]
 You can also perform actions on multiple teams simultaneously. This
 feature streamlines processes such as sending surveys or deleting teams.
 
-===== Selecting Teams for Bulk Actions
+=== Selecting Teams for Bulk Actions
 
 * To select teams, click on the checkboxes next to each team's name.
 
@@ -176,7 +176,7 @@ will update to reflect the number of teams selected.
 * If you wish to select all teams, use the 'Select all' checkbox at
 the bottom left corner of the list.
 
-===== Performing Bulk Actions
+=== Performing Bulk Actions
 
 * *Send Survey:* To send a survey to multiple teams, select the desired
 teams and click the 'Send Survey' button located in the bottom
@@ -188,7 +188,7 @@ select the teams and then click the 'Delete' button. Please use this
 function with caution, as deleting a team is irreversible and will
 remove all associated data from the system.
 
-===== Additional Notes
+=== Additional Notes
 
 * Only users with the appropriate permissions can send surveys and
 delete teams. Refer to the roles and permissions matrix to understand

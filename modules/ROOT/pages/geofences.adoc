@@ -33,7 +33,7 @@ comprehensive approach to area management and monitoring.
 
 * * *
 
-=== Managing Geofences
+== Managing Geofences
 
 {blank}
 
@@ -41,7 +41,7 @@ image:./media/media/image50.png[image,width=656,height=378,role="image-custom"]
 
 {blank}
 
-==== Key Functionalities:
+=== Key Functionalities
 
 image:./media/icon/1.svg[selcting officer, 16, 16]&#160; *Search:* Utilise the search bar to quickly find a geofence by
 entering its name. The search will also work on a partial name and
@@ -60,7 +60,7 @@ categories or status from the 'Filters' dropdown menu.
 
 <<<
 
-=== Adding a New Geofence:
+== Adding a New Geofence
 
 {blank}
 
@@ -68,7 +68,7 @@ image:./media/media/image51.png[image,width=809,height=499,role="image-custom"]
 
 {blank}
 
-==== Key Functionalities:
+=== Key Functionalities
 
 image:./media/icon/1.svg[selcting officer, 16, 16]&#160; *Geofence Boundary Points:* Click on the map to place boundary
 points. Each point can be moved or deleted after placement. Double-click
@@ -118,7 +118,7 @@ contact for further information or changes.
 
 <<<
 
-=== Editing a Geofence
+== Editing a Geofence
 
 {blank}
 
@@ -126,7 +126,7 @@ image:./media/media/image53.png[image,width=748,height=465,role="image-custom"]
 
 {blank}
 
-==== Key Functionalities:
+=== Key Functionalities
 
 --
 
@@ -167,7 +167,7 @@ to drop the geofence into place image:./media/icon/2.svg[selcting officer, 16, 1
 
 <<<
 
-=== Reverting Changes in Geofence Editing
+== Reverting Changes in Geofence Editing
 
 {blank}
 

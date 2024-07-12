@@ -10,7 +10,7 @@ image::./media/media/image46.png[image,width=642,height=340,role="image-custom"]
 
 {blank}
 
-== Functionalities Overview:
+== Functionalities Overview
 
 image::./media/icon/1.svg[selcting officer, 16, 16]&#160; *Search:* Use the search bar to quickly locate a specific area
 within the list by name.

@@ -1,7 +1,7 @@
 [[map-functionality]]
 = 4. Map Functionality
 
-=== Search & Filtering
+== Search & Filtering
 
 {blank}
 
@@ -61,7 +61,7 @@ simultaneously to further refine your search results.
 
 <<<
 
-=== Officer Details
+== Officer Details
 
 {blank}
 
@@ -77,7 +77,7 @@ the officer's activity and location history.
 
 <<<
 
-=== Detailed Officer Activity and Patrol Route
+== Detailed Officer Activity and Patrol Route
 
 {blank}
 
@@ -85,7 +85,7 @@ image:./media/media/image16.png[image,width=755,height=340,role="image-custom"]
 
 {blank}
 
-===== Activity Details Panel (Left):
+=== Activity Details Panel (Left)
 
 * *Profile & Badge Number:* Displays Officer name, collar number and assigned team.
 
@@ -97,7 +97,7 @@ image:./media/media/image16.png[image,width=755,height=340,role="image-custom"]
 
 * *Activity Types:* Icons indicate the type of activity, such as beginning of duty, walking, or driving.
 
-===== Patrol Route Map Panel (Right):
+=== Patrol Route Map Panel (Right)
 
 * *Patrol Path:* Shows the officer's location history with lines linking
 activity events, providing a visual trail of the officer’s movements.
@@ -124,7 +124,7 @@ image:./media/media/image18.png[image,width=600,height=380,role="image-custom"]
 
 <<<
 
-=== Activities Feed
+== Activities Feed
 
 {blank}
 
