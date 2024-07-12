@@ -1,5 +1,4 @@
-[[introduction]]
-= 1. Introduction
+= Introduction
 
 Visibeat is a powerful application designed specifically for hotspot
 policing. The system utilises interactive maps, real-time data, and
