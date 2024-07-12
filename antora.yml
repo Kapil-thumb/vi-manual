@@ -1,6 +1,6 @@
 name: example-component
 title: Visibeat User Manaual
 version: 1.1
-start_page: index.adoc
+start_page: index-1.adoc
 nav:
   - modules/ROOT/nav.adoc
