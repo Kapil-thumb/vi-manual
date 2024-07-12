@@ -1,9 +1,9 @@
 [[overview-pane]]
-= 3. Overview Pane
+= Overview Pane
 
 {blank}
 
-image:./media/media/image6.png[image,width=755,height=132,role="image-custom"]
+image::media/media/image6.png[image,width=755,height=132,role="image-custom"]
 
 {blank}
 
@@ -34,7 +34,7 @@ that officers are conducting patrols as scheduled.
 Clicking on this widget will apply a filter to the activities list so
 that only the “Patrol Started” events for the current day are shown:
 
-image:./media/media/image7.png[image,width=250,height=250,role="image-custom"]
+image::media/media/image7.png[image,width=250,height=250,role="image-custom"]
 
 {blank}
 
@@ -52,4 +52,4 @@ that only the “Survey Sent” events for the current day are shown:
 
 {blank}
 
-image:./media/media/image8.png[image,width=250,height=250,role="image-custom"]
+image::media/media/image8.png[image,width=250,height=250,role="image-custom"]

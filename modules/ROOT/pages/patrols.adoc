@@ -1,5 +1,5 @@
 [[patrols]]
-= 10. Patrols
+= Patrols
 
 A patrol is an organised framework that combines geofences and officers
 to ensure specific areas are monitored. Patrols can be either
@@ -65,36 +65,36 @@ the interface options provided.
 
 {blank}
 
-image:./media/media/image69.png[image,width=814,height=374,role="image-custom"]
+image::media/media/image69.png[image,width=814,height=374,role="image-custom"]
 
 {blank}
 
-* image:./media/icon/1.svg[selcting officer, 16, 16] *Default Tab*: Click to view or manage routine patrols that do not
+* image::media/icon/1.svg[selcting officer, 16, 16] *Default Tab*: Click to view or manage routine patrols that do not
 have specific operational times or dates and can be executed at any
 time.
 
-* image:./media/icon/2.svg[selcting officer, 16, 16] *Operational Tab*: Use this to manage patrols that are time and date
+* image::media/icon/2.svg[selcting officer, 16, 16] *Operational Tab*: Use this to manage patrols that are time and date
 specific, typically for targeted operations.
 
-* image:./media/icon/3.svg[selcting officer, 16, 16] *Add New Button*: Initiates the creation of a new patrol, allowing
+* image::media/icon/3.svg[selcting officer, 16, 16] *Add New Button*: Initiates the creation of a new patrol, allowing
 entry of details such as geofences, officers, and type of patrol.
 
-* image:./media/icon/4.svg[selcting officer, 16, 16] *Total Geofences Column*: Displays the number of geofences assigned
+* image::media/icon/4.svg[selcting officer, 16, 16] *Total Geofences Column*: Displays the number of geofences assigned
 to the patrol. Click the number to view/edit the geofence configuration
 for the patrol.
 
-* image:./media/icon/5.svg[selcting officer, 16, 16] *Total Teams Column:* Indicates the number of teams assigned to the
+* image::media/icon/5.svg[selcting officer, 16, 16] *Total Teams Column:* Indicates the number of teams assigned to the
 patrol. Click the number to view/edit the team assignment
 
-* image:./media/icon/6.svg[selcting officer, 16, 16] *Total Officers Column:* Shows how many officers are assigned to the
+* image::media/icon/6.svg[selcting officer, 16, 16] *Total Officers Column:* Shows how many officers are assigned to the
 patrol. Click the number to view/edit the officer assignment.
 
-* image:./media/icon/7.svg[selcting officer, 16, 16] *Action Column:* Offers options to edit or delete patrols directly
+* image::media/icon/7.svg[selcting officer, 16, 16] *Action Column:* Offers options to edit or delete patrols directly
 from the list. The following actions are available:
 
 [width="99%",cols="<27%,<73%",options="header",]
 |===
-|image:./media/media/image70.png[image,width=230,height=246,role="image-custom"] |
+|image::media/media/image70.png[image,width=230,height=246,role="image-custom"] |
 - View or edit details of the patrol. Edit is only available if you have edit permission. +
 
 - View the geofences assigned to the patrol +
@@ -110,7 +110,7 @@ the config. +
 permission.
 |===
 
-* image:./media/icon/8.svg[selcting officer, 16, 16] *Search Bar:* Provides a feature to quickly find patrols by entering
+* image::media/icon/8.svg[selcting officer, 16, 16] *Search Bar:* Provides a feature to quickly find patrols by entering
 keywords related to their titles or other details.
 
 <<<
@@ -119,17 +119,17 @@ keywords related to their titles or other details.
 
 [cols="<,<",]
 |===
-|image:./media/media/image71.png[image,width=377,height=435,role="image-custom"]
-|image:./media/media/image72.png[image,width=377,height=278,role="image-custom"]
+|image::media/media/image71.png[image,width=377,height=435,role="image-custom"]
+|image::media/media/image72.png[image,width=377,height=278,role="image-custom"]
 |===
 
-* image:./media/icon/1.svg[selcting officer, 16, 16] *Title*: Enter a unique name for the patrol to easily identify it in
+* image::media/icon/1.svg[selcting officer, 16, 16] *Title*: Enter a unique name for the patrol to easily identify it in
 the system.
 
-* image:./media/icon/2.svg[selcting officer, 16, 16] *Description*: Provide a brief overview of the patrol’s purpose and
+* image::media/icon/2.svg[selcting officer, 16, 16] *Description*: Provide a brief overview of the patrol’s purpose and
 any important details that officers should know.
 
-* image:./media/icon/3.svg[selcting officer, 16, 16] *Default Geofence Settings*: Check this box to set the default
+* image::media/icon/3.svg[selcting officer, 16, 16] *Default Geofence Settings*: Check this box to set the default
 values for all geofences added to the patrol. It’s still possible to
 override these settings in the individual geofence settings. The start
 and end time parameters are used allow a geofence to be only active
@@ -137,57 +137,57 @@ during this time period. Note if an officer starts a patrol within the
 time period, they will always be able to complete regardless of the end
 time. i.e. the patrol will not end at the specified end time.
 
-* image:./media/icon/4.svg[selcting officer, 16, 16] *Notifications*: Enable option if you want officers to receive a
+* image::media/icon/4.svg[selcting officer, 16, 16] *Notifications*: Enable option if you want officers to receive a
 notification when they enter or exit a geofence.
 
-* image:./media/icon/5.svg[selcting officer, 16, 16] *Minimum Patrol Time (minutes)*: The minimum time an officer must
+* image::media/icon/5.svg[selcting officer, 16, 16] *Minimum Patrol Time (minutes)*: The minimum time an officer must
 stay within the geofence for the patrol to be recorded in their history.
 Patrols shorter than this duration will be discarded, useful for
 excluding brief transits through geofences.
 
-* image:./media/icon/6.svg[selcting officer, 16, 16] *Expected Patrol Time (minutes)*: This is the required duration that
+* image::media/icon/6.svg[selcting officer, 16, 16] *Expected Patrol Time (minutes)*: This is the required duration that
 an officer should spend in a geofence for a patrol to be considered
 successful.
 
-* image:./media/icon/7.svg[selcting officer, 16, 16] *Exit Delay (seconds)*: This setting delays the patrol's end after
+* image::media/icon/7.svg[selcting officer, 16, 16] *Exit Delay (seconds)*: This setting delays the patrol's end after
 an officer exits the geofence, providing a buffer to accommodate for
 accidental exits or GPS inaccuracies. This allows the officer to
 re-enter without prematurely ending the patrol.
 
-* image:./media/icon/8.svg[selcting officer, 16, 16] *Survey*: Select a survey from the dropdown list that officers are
+* image::media/icon/8.svg[selcting officer, 16, 16] *Survey*: Select a survey from the dropdown list that officers are
 required to complete. The time when the officer can complete the survey
 is configurable with the timer starting from when the patrol first
 starts.
 
-* image:./media/icon/9.svg[selcting officer, 16, 16] Save the configuration and move onto selecting the geofences on the
+* image::media/icon/9.svg[selcting officer, 16, 16] Save the configuration and move onto selecting the geofences on the
 next screen
 
 {blank}
 
-image:./media/media/image73.png[image,width=742,height=604,role="image-custom"]
+image::media/media/image73.png[image,width=742,height=604,role="image-custom"]
 
 {blank}
 
-* image:./media/icon/1.svg[selcting officer, 16, 16] *Geofence List*: Allows you to select or deselect geofences for
+* image::media/icon/1.svg[selcting officer, 16, 16] *Geofence List*: Allows you to select or deselect geofences for
 inclusion in the patrol. Check the box to add a geofence to your patrol;
 uncheck it to remove a geofence.
 
-* image:./media/icon/2.svg[selcting officer, 16, 16] *Settings Icon*: This can be used to configure the settings of
+* image::media/icon/2.svg[selcting officer, 16, 16] *Settings Icon*: This can be used to configure the settings of
 individual geofences overriding any the default config
 
-* image:./media/icon/3.svg[selcting officer, 16, 16] *Map Selection*: Selection of a geofence can also be performed by
+* image::media/icon/3.svg[selcting officer, 16, 16] *Map Selection*: Selection of a geofence can also be performed by
 clicking the geofence from the map.
 
-* image:./media/icon/4.svg[selcting officer, 16, 16] *Continue Button*: Click this button to proceed with the selected
+* image::media/icon/4.svg[selcting officer, 16, 16] *Continue Button*: Click this button to proceed with the selected
 geofences. This will finalise your geofence choices for the patrol and
 take you to the next step in the patrol configuration process. Upon
 clicking continue the new patrol will be added to the Default patrol
-list. From here you can assign the teams and officers image:./media/icon/1.svg[selcting officer, 16, 16] and image:./media/icon/2.svg[selcting officer, 16, 16] from
+list. From here you can assign the teams and officers image::media/icon/1.svg[selcting officer, 16, 16] and image::media/icon/2.svg[selcting officer, 16, 16] from
 the image below:
 
 {blank}
 
-image:./media/media/image74.png[image,width=902,height=280,role="image-custom"]
+image::media/media/image74.png[image,width=902,height=280,role="image-custom"]
 
 {blank}
 
@@ -202,23 +202,23 @@ described below:
 
 [width="100%",cols="50%,50%",]
 |===
-|image:./media/media/image75.png[image] |
-image:./media/icon/1.svg[selcting officer, 16, 16]  *Start Date:* Set the beginning date for the patrol. This is the
+|image::media/media/image75.png[image] |
+image::media/icon/1.svg[selcting officer, 16, 16]  *Start Date:* Set the beginning date for the patrol. This is the
 date when the patrol operations are scheduled to commence. *** NOTE:
 start date must be in the future *** +
-image:./media/icon/2.svg[selcting officer, 16, 16]  *End Date:* Specify the final date of the patrol operations. After 
+image::media/icon/2.svg[selcting officer, 16, 16]  *End Date:* Specify the final date of the patrol operations. After 
 this date, the patrol will no longer be active. +
-image:./media/icon/3.svg[selcting officer, 16, 16]  *Number of Officers per Day*: Determine the maximum number many
+image::media/icon/3.svg[selcting officer, 16, 16]  *Number of Officers per Day*: Determine the maximum number many
 officers which should be on a patrol per day. +
-image:./media/icon/4.svg[selcting officer, 16, 16]. *Number of Geofences per Day*: Indicate
+image::media/icon/4.svg[selcting officer, 16, 16]. *Number of Geofences per Day*: Indicate
 how many different geofences an officer or team should cover in a single
 day during the patrol. +
-image:./media/icon/5.svg[selcting officer, 16, 16]  *Patrol Overrides:* The default patrol will be ignored if an officer
+image::media/icon/5.svg[selcting officer, 16, 16]  *Patrol Overrides:* The default patrol will be ignored if an officer
 is assigned to an active operational patrol +
-image:./media/icon/6.svg[selcting officer, 16, 16]  *Operational Patrol Questions (Survey Dropdown):* Select a survey
+image::media/icon/6.svg[selcting officer, 16, 16]  *Operational Patrol Questions (Survey Dropdown):* Select a survey
 from the dropdown list that officers will need to complete during or
 after the patrol. +
-image:./media/icon/7.svg[selcting officer, 16, 16]  *First Geofence Patrolled*: Choose this option if you want officers
+image::media/icon/7.svg[selcting officer, 16, 16]  *First Geofence Patrolled*: Choose this option if you want officers
 to be prompted to fill out the survey after they complete the patrol of
 the first geofence +
 *All Geofences Patrolled:* Select this if the survey should be completed
@@ -233,30 +233,30 @@ which shows the patrol daily schedule configuration.
 
 {blank}
 
-image:./media/media/image76.png[image,width=754,height=539,role="image-custom"]
+image::media/media/image76.png[image,width=754,height=539,role="image-custom"]
 
 {blank}
 
-* image:./media/icon/1.svg[selcting officer, 16, 16] *Date Navigation:* Use the arrows to move between different weekly
+* image::media/icon/1.svg[selcting officer, 16, 16] *Date Navigation:* Use the arrows to move between different weekly
 views or select a specific week to display the scheduled operations
 within that timeframe.
 
-* image:./media/icon/2.svg[selcting officer, 16, 16] *Officer Schedule:* This section allows you to manually add officers
+* image::media/icon/2.svg[selcting officer, 16, 16] *Officer Schedule:* This section allows you to manually add officers
 to specific days of the week. Click ‘+Add’ to assign officers to shifts
 or patrols for each day.
 
-* image:./media/icon/3.svg[selcting officer, 16, 16] *Import Button:* Use this feature to import schedules from an excel
+* image::media/icon/3.svg[selcting officer, 16, 16] *Import Button:* Use this feature to import schedules from an excel
 template.
 
-* image:./media/icon/4.svg[selcting officer, 16, 16] *Geofence Schedule:* Similar to the officer schedule, this area lets
+* image::media/icon/4.svg[selcting officer, 16, 16] *Geofence Schedule:* Similar to the officer schedule, this area lets
 you assign specific geofences to be patrolled on particular days. Click
 ‘+Add’ to schedule geofences for each day.
 
-* image:./media/icon/5.svg[selcting officer, 16, 16] *Auto Assign:* Automatically assign geofences to the schedule. The
+* image::media/icon/5.svg[selcting officer, 16, 16] *Auto Assign:* Automatically assign geofences to the schedule. The
 system will use all geofences in order to ensure an even spread of
 patrolling.
 
-* image:./media/icon/6.svg[selcting officer, 16, 16] *Geofence configuration*: View and manage the list of geofences
+* image::media/icon/6.svg[selcting officer, 16, 16] *Geofence configuration*: View and manage the list of geofences
 involved in the operation. Use the icon to configure a specific
 geofence. i.e. override the default settings.
 
@@ -265,17 +265,17 @@ showing the assigned officers and geofences.
 
 [width="100%",cols="50%,50%",]
 |===
-|image:./media/media/image77.png[image]|
-image:./media/icon/1.svg[selcting officer, 16, 16]  Shows officers assigned to specific days. Officer names are
+|image::media/media/image77.png[image]|
+image::media/icon/1.svg[selcting officer, 16, 16]  Shows officers assigned to specific days. Officer names are
 displayed, and each name has an 'X' beside it, allowing for quick
 removal if schedule adjustments are necessary. +
 Adding Officers: Click '+ Add' to include more officers to any day of
 the week. +
-image:./media/icon/2.svg[selcting officer, 16, 16]  Displays the geofences assigned to each day of the week. Similar to
+image::media/icon/2.svg[selcting officer, 16, 16]  Displays the geofences assigned to each day of the week. Similar to
 the officer schedule, each geofence entry has an 'X' for removal if
 changes are needed use the '+ Add' button to schedule additional geofences for patrol on
 specific days +
-image:./media/icon/3.svg[selcting officer, 16, 16] *NOTE:* Its only possible to edit the configuration for future
+image::media/icon/3.svg[selcting officer, 16, 16] *NOTE:* Its only possible to edit the configuration for future
 dates. Past and current day are read only.
 |===
 

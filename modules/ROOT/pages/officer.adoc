@@ -1,9 +1,9 @@
 [[officers]]
-= 5. Officers
+= Officers
 
 {blank}
 
-image:./media/media/image21.png[image,width=755,height=377,role="image-custom"]
+image::media/media/image21.png[image,width=755,height=377,role="image-custom"]
 
 {blank}
 
@@ -32,7 +32,7 @@ Utilise the search bar to find officers by name or collar number.
 
 {blank}
 
-image:./media/media/image22.png[image,width=755,height=453,role="image-custom"]
+image::media/media/image22.png[image,width=755,height=453,role="image-custom"]
 
 {blank}
 
@@ -42,7 +42,7 @@ image:./media/media/image22.png[image,width=755,height=453,role="image-custom"]
 
 {blank}
 
-image:./media/media/image23.png[image,width=755,height=340,role="image-custom"]
+image::media/media/image23.png[image,width=755,height=340,role="image-custom"]
 
 {blank}
 
@@ -81,7 +81,7 @@ switch between broad overviews and granular views of officer data.
 
 {blank}
 
-image:./media/media/image24.png[image,width=755,height=330,role="image-custom"]
+image::media/media/image24.png[image,width=755,height=330,role="image-custom"]
 
 {blank}
 
@@ -94,7 +94,7 @@ name brings up a menu with several options:
 
 {blank}
 
-image:./media/media/image25.png[image,width=302,height=529,role="image-custom"]
+image::media/media/image25.png[image,width=302,height=529,role="image-custom"]
 
 {blank}
 
@@ -106,7 +106,7 @@ activities.
 
 {blank}
 
-image:./media/media/image26.png[image,width=755,height=529,role="image-custom"]
+image::media/media/image26.png[image,width=755,height=529,role="image-custom"]
 
 {blank}
 
@@ -117,7 +117,7 @@ add them to a new team.
 
 {blank}
 
-image:./media/media/image27.png[image,width=302,height=566,role="image-custom"]
+image::media/media/image27.png[image,width=302,height=566,role="image-custom"]
 
 {blank}
 
@@ -128,7 +128,7 @@ is designated to patrol.
 
 {blank}
 
-image:./media/media/image28.png[image,width=321,height=566,role="image-custom"]
+image::media/media/image28.png[image,width=321,height=566,role="image-custom"]
 
 {blank}
 
@@ -142,7 +142,7 @@ See Roles for more information,
 
 {blank}
 
-image:./media/media/image29.png[image,width=286,height=524,role="image-custom"]
+image::media/media/image29.png[image,width=286,height=524,role="image-custom"]
 
 {blank}
 
@@ -151,11 +151,11 @@ image:./media/media/image29.png[image,width=286,height=524,role="image-custom"]
 *Send Survey:* Initiate the dispatch of an ad-hoc survey or questionnaires
 to the officer.
 
-image:./media/media/image30.png[image,width=286,height=450,role="image-custom"]
+image::media/media/image30.png[image,width=286,height=450,role="image-custom"]
 
 *Delete:* Remove an officer from the system.
 
-image:./media/media/image31.png[image,width=280,height=180,role="image-custom"]
+image::media/media/image31.png[image,width=280,height=180,role="image-custom"]
 
 <<<
 
@@ -163,7 +163,7 @@ image:./media/media/image31.png[image,width=280,height=180,role="image-custom"]
 
 {blank}
 
-image:./media/media/image32.png[image,width=755,height=453,role="image-custom"]
+image::media/media/image32.png[image,width=755,height=453,role="image-custom"]
 
 {blank}
 
@@ -180,7 +180,7 @@ To streamline the integration of officers from your Active Directory
 
 +
 
-image:./media/media/image33.png[image,width=377,height=188,role="image-custom"]
+image::media/media/image33.png[image,width=377,height=188,role="image-custom"]
 
 +
 
@@ -189,7 +189,7 @@ image:./media/media/image33.png[image,width=377,height=188,role="image-custom"]
 
 +
 
-image:./media/media/image34.png[image,width=377,height=188,role="image-custom"]
+image::media/media/image34.png[image,width=377,height=188,role="image-custom"]
 
 +
 
@@ -197,7 +197,7 @@ image:./media/media/image34.png[image,width=377,height=188,role="image-custom"]
 
 +
 
-image:./media/media/image35.png[image,width=340,height=207,role="image-custom"]
+image::media/media/image35.png[image,width=340,height=207,role="image-custom"]
 
 +
 
@@ -206,7 +206,7 @@ See importing officer’s configuration for further details
 
 +
 
-image:./media/media/image36.png[image,width=290,height=297,role="image-custom"]
+image::media/media/image36.png[image,width=290,height=297,role="image-custom"]
 
 +
 
@@ -221,7 +221,7 @@ provided in the file.
 
 +
 
-image:./media/media/image33.png[image,width=302,height=188,role="image-custom"]
+image::media/media/image33.png[image,width=302,height=188,role="image-custom"]
 
 +
 
@@ -229,7 +229,7 @@ image:./media/media/image33.png[image,width=302,height=188,role="image-custom"]
 
 +
 
-image:./media/media/image34.png[image,width=302,height=188,role="image-custom"]
+image::media/media/image34.png[image,width=302,height=188,role="image-custom"]
 
 +
 
@@ -237,7 +237,7 @@ image:./media/media/image34.png[image,width=302,height=188,role="image-custom"]
 
 +
 
-image:./media/media/image35.png[image,width=302,height=188,role="image-custom"]
+image::media/media/image35.png[image,width=302,height=188,role="image-custom"]
 
 +
 
@@ -248,7 +248,7 @@ required fields.
 
 +
 
-image:./media/media/image37.png[image,width=286,height=302,role="image-custom"]
+image::media/media/image37.png[image,width=286,height=302,role="image-custom"]
 
 {blank}
 
@@ -392,7 +392,7 @@ image:./media/media/image37.png[image,width=286,height=302,role="image-custom"]
 
 {blank}
 
-image:./media/media/image38.png[image,width=755,height=453,role="image-custom"]
+image::media/media/image38.png[image,width=755,height=453,role="image-custom"]
 
 {blank}
 
@@ -426,7 +426,7 @@ for multiple officers:
 
 +
 
-image:./media/media/image39.png[image,width=680,height=491,role="image-custom"]
+image::media/media/image39.png[image,width=680,height=491,role="image-custom"]
 
 +
 
@@ -435,7 +435,7 @@ image:./media/media/image39.png[image,width=680,height=491,role="image-custom"]
 +
 
 --
-image:./media/icon/1.svg[selcting officer, 16, 16]  &#160; *Selecting Officers:*
+image::media/icon/1.svg[selcting officer, 16, 16]  &#160; *Selecting Officers:*
 
 * To start, check the boxes next to the officers' names you wish to
 update. The checkboxes are located to the left of each officer’s
@@ -444,7 +444,7 @@ information.
 * The number of officers you have selected will be displayed at the
 bottom of the screen, confirming your selections for the bulk update.
 
-image:./media/icon/2.svg[selcting officer, 16, 16] &#160;  *Assigning Bulk Updates:*
+image::media/icon/2.svg[selcting officer, 16, 16] &#160;  *Assigning Bulk Updates:*
 
 * With officers selected, navigate to the bottom action bar to access
 the bulk assignment options.
@@ -457,7 +457,7 @@ for.
 
 <<<
 
-image:./media/icon/3.svg[selcting officer, 16, 16] &#160;  *Finalising Your Selections:*
+image::media/icon/3.svg[selcting officer, 16, 16] &#160;  *Finalising Your Selections:*
 
 ** Review your assignments to ensure they are correct.
 

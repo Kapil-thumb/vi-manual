@@ -1,11 +1,11 @@
 [[map-functionality]]
-= 4. Map Functionality
+= Map Functionality
 
 == Search & Filtering
 
 {blank}
 
-image:./media/media/image9.png[image,width=755,height=264,role="image-custom"]
+image::media/media/image9.png[image,width=755,height=264,role="image-custom"]
 
 {blank}
 
@@ -29,7 +29,7 @@ search and apply a filter for multiple teams.
 
 {blank}
 
-image:./media/media/image10.png[image,width=286,height=268,role="image-custom"]image:./media/media/image11.png[image,width=283,height=491,role="image-custom"]
+image::media/media/image10.png[image,width=286,height=268,role="image-custom"]image::media/media/image11.png[image,width=283,height=491,role="image-custom"]
 
 {blank}
 
@@ -40,7 +40,7 @@ geographic extent of the selected area. Multiple areas can be enabled.
 
 {blank}
 
-image:./media/media/image12.png[image,width=642,height=529,role="image-custom"]
+image::media/media/image12.png[image,width=642,height=529,role="image-custom"]
 
 {blank}
 
@@ -53,8 +53,8 @@ simultaneously to further refine your search results.
 {blank}
 [cols="<,<",]
 |===
-|image:./media/media/image13.png[image,width=359,height=340,role="image-custom"]
-|image:./media/media/image14.png[image,width=359,height=340,role="image-custom"]
+|image::media/media/image13.png[image,width=359,height=340,role="image-custom"]
+|image::media/media/image14.png[image,width=359,height=340,role="image-custom"]
 |===
 
 {blank}
@@ -65,7 +65,7 @@ simultaneously to further refine your search results.
 
 {blank}
 
-image:./media/media/image15.png[image,width=755,height=453,role="image-custom"]
+image::media/media/image15.png[image,width=755,height=453,role="image-custom"]
 
 {blank}
 
@@ -81,7 +81,7 @@ the officer's activity and location history.
 
 {blank}
 
-image:./media/media/image16.png[image,width=755,height=340,role="image-custom"]
+image::media/media/image16.png[image,width=755,height=340,role="image-custom"]
 
 {blank}
 
@@ -112,13 +112,13 @@ walking figure for patrol).
 
 ** Example of duty turned on +
 
-image:./media/media/image17.png[image,width=600,height=280,role="image-custom"]
+image::media/media/image17.png[image,width=600,height=280,role="image-custom"]
 
 {blank}
 
 ** Example of walking +
 
-image:./media/media/image18.png[image,width=600,height=380,role="image-custom"]
+image::media/media/image18.png[image,width=600,height=380,role="image-custom"]
 
 {blank}
 
@@ -128,7 +128,7 @@ image:./media/media/image18.png[image,width=600,height=380,role="image-custom"]
 
 {blank}
 
-image:./media/media/image19.png[image,width=286,height=281,role="image-custom"]image:./media/media/image20.png[image,width=263,height=450,role="image-custom"]
+image::media/media/image19.png[image,width=286,height=281,role="image-custom"]image::media/media/image20.png[image,width=263,height=450,role="image-custom"]
 
 {blank}
 
