@@ -53,8 +53,8 @@ simultaneously to further refine your search results.
 {blank}
 [cols="<,<",]
 |===
-|image::media/media/image13.png[image,width=359,height=340,role="image-custom"]
-|image::media/media/image14.png[image,width=359,height=340,role="image-custom"]
+|image:media/media/image13.png[image,width=359,height=340,role="image-custom"]
+|image:media/media/image14.png[image,width=359,height=340,role="image-custom"]
 |===
 
 {blank}

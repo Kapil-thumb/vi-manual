@@ -32,7 +32,7 @@ image:media/media/image4.png[image,width=500,height=280,role="image-custom"]
 
 {blank}
 
-image::media/icon/2.svg[selcting officer, 16, 16] Switch between map view and satellite view. 
+image:media/icon/2.svg[selcting officer, 16, 16] Switch between map view and satellite view. 
 
 {blank}
 

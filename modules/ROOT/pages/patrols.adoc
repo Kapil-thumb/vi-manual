@@ -94,7 +94,7 @@ from the list. The following actions are available:
 
 [width="99%",cols="<27%,<73%",options="header",]
 |===
-|image::media/media/image70.png[image,width=230,height=246,role="image-custom"] |
+|image:media/media/image70.png[image,width=230,height=246,role="image-custom"] |
 - View or edit details of the patrol. Edit is only available if you have edit permission. +
 
 - View the geofences assigned to the patrol +
@@ -202,7 +202,7 @@ described below:
 
 [width="100%",cols="50%,50%",]
 |===
-|image::media/media/image75.png[image] |
+|image:media/media/image75.png[image] |
 image:media/icon/1.svg[selcting officer, 16, 16]  *Start Date:* Set the beginning date for the patrol. This is the
 date when the patrol operations are scheduled to commence. *** NOTE:
 start date must be in the future *** +
