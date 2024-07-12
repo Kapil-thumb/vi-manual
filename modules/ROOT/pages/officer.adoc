@@ -435,7 +435,7 @@ image::media/media/image39.png[image,width=680,height=491,role="image-custom"]
 +
 
 --
-image::media/icon/1.svg[selcting officer, 16, 16]  &#160; *Selecting Officers:*
+image:media/icon/1.svg[selcting officer, 16, 16]  &#160; *Selecting Officers:*
 
 * To start, check the boxes next to the officers' names you wish to
 update. The checkboxes are located to the left of each officer’s
@@ -444,7 +444,7 @@ information.
 * The number of officers you have selected will be displayed at the
 bottom of the screen, confirming your selections for the bulk update.
 
-image::media/icon/2.svg[selcting officer, 16, 16] &#160;  *Assigning Bulk Updates:*
+image:media/icon/2.svg[selcting officer, 16, 16] &#160;  *Assigning Bulk Updates:*
 
 * With officers selected, navigate to the bottom action bar to access
 the bulk assignment options.
@@ -457,7 +457,7 @@ for.
 
 <<<
 
-image::media/icon/3.svg[selcting officer, 16, 16] &#160;  *Finalising Your Selections:*
+image:media/icon/3.svg[selcting officer, 16, 16] &#160;  *Finalising Your Selections:*
 
 ** Review your assignments to ensure they are correct.
 

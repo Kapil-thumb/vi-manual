@@ -12,13 +12,13 @@ image::media/media/image46.png[image,width=642,height=340,role="image-custom"]
 
 == Functionalities Overview
 
-image::media/icon/1.svg[selcting officer, 16, 16]&#160; *Search:* Use the search bar to quickly locate a specific area
+image:media/icon/1.svg[selcting officer, 16, 16]&#160; *Search:* Use the search bar to quickly locate a specific area
 within the list by name.
 
-image::media/icon/2.svg[selcting officer, 16, 16]&#160; *Import:* Use the 'Import' button to add new areas to the system,
+image:media/icon/2.svg[selcting officer, 16, 16]&#160; *Import:* Use the 'Import' button to add new areas to the system,
 enhancing your geographic coverage.
 
-image::media/icon/3.svg[selcting officer, 16, 16]&#160; *Map View:* The map to the right provides a visual layout of all the
+image:media/icon/3.svg[selcting officer, 16, 16]&#160; *Map View:* The map to the right provides a visual layout of all the
 areas. Clicking on an area in the list or on the map will zoom into that
 location for more details.
 
@@ -28,7 +28,7 @@ image::media/media/image47.png[image,width=604,height=264,role="image-custom"]
 
 {blank}
 
-image::media/icon/4.svg[selcting officer, 16, 16]&#160; *Delete:* Multi select the areas which require deletion.
+image:media/icon/4.svg[selcting officer, 16, 16]&#160; *Delete:* Multi select the areas which require deletion.
 
 {blank}
 
