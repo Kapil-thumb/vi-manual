@@ -21,14 +21,14 @@ image::media/media/image3.png[image,width=831,height=566,role="image-custom"]
 
 {blank}
 
-image::media/icon/1.svg[selcting officer, 16, 16] This indicates the total number of online officers within the area. 
+image:media/icon/1.svg[selcting officer, 16, 16] This indicates the total number of online officers within the area. 
 
 {blank}
 
 Clicking the numbered circle will automatically zoom the map to the
 extents of all officers:
 
-image::media/media/image4.png[image,width=500,height=280,role="image-custom"]
+image:media/media/image4.png[image,width=500,height=280,role="image-custom"]
 
 {blank}
 
@@ -36,14 +36,14 @@ image::media/icon/2.svg[selcting officer, 16, 16] Switch between map view and sa
 
 {blank}
 
-image::media/media/image5.png[image,width=500,height=280,role="image-custom"]
+image:media/media/image5.png[image,width=500,height=280,role="image-custom"]
 
 {blank}
 
-image::media/icon/3.svg[selcting officer, 16, 16] This expands the map to a full-screen view, offering a more detailed
+image:media/icon/3.svg[selcting officer, 16, 16] This expands the map to a full-screen view, offering a more detailed
 and less cluttered view of the map. It's designed to help administrators
 focus on the map without the distraction of other interface elements.
 
-image::media/icon/4.svg[selcting officer, 16, 16] Zoom Controls (+/- icons): These are standard map zoom controls
+image:media/icon/4.svg[selcting officer, 16, 16] Zoom Controls (+/- icons): These are standard map zoom controls
 where the plus icon allows users to zoom in for a closer view, and the
 minus icon allows users to zoom out to see a larger area.
