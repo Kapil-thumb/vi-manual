@@ -1,0 +1,313 @@
+[[survey-management]]
+= 9. Survey Management
+
+The Survey section of Visibeat provides several key features for
+managing your surveys:
+
+{blank}
+
+image:./media/media/image56.png[image,width=755,height=377,role="image-custom"]
+
+{blank}
+
+* image:./media/icon/1.svg[selcting officer, 16, 16] *Search*: Quickly find a survey by entering relevant keywords into
+the search bar.
+
+* image:./media/icon/2.svg[selcting officer, 16, 16] *Add New Survey:* Create and add a survey to the system using the
+'Add new' button.
+
+* image:./media/icon/3.svg[selcting officer, 16, 16] *Created On:* Organise and view surveys by their creation date,
+which can be sorted using the arrow icon.
+
+* image:./media/icon/4.svg[selcting officer, 16, 16] *Updated On:* Sort surveys by the most recent updates to keep track
+of the latest changes.
+
+* image:./media/icon/5.svg[selcting officer, 16, 16] *Action:* Edit, duplicate, or delete surveys as needed by clicking
+the action button represented by three vertical dots.
+
+<<<
+
+=== Creating a New Survey
+
+{blank}
+
+image:./media/media/image57.png[image,width=755,height=302,role="image-custom"]
+
+{blank}
+
+==== Title:
+
+* Click into the 'Title' field image:./media/icon/1.svg[selcting officer, 16, 16].
+
+* This is a mandatory field. Enter a concise yet descriptive title for
+the survey. The title should give a clear indication of the survey's
+purpose or the operation it is associated with
+
+==== Description:
+
+* Click into the 'Description' field image:./media/icon/2.svg[selcting officer, 16, 16].
+
+* While this field is optional, providing a detailed description can be
+very helpful. Describe the objective of the survey, the type of
+information you are aiming to collect, or any instructions officers
+might need when completing the survey.
+
+<<<
+
+=== Automatic Data Collection
+
+To streamline the survey process and enhance the efficiency of data
+collection within the application, the 'Automatic Responses' feature has
+been implemented. This function is designed to gather specific
+officer-related data without the need for manual input by the officer at
+the time of survey completion. The information is automatically
+retrieved by the system when a survey response is submitted.
+
+Here's how to utilise this feature:
+
+{blank}
+
+image:./media/media/image58.png[image,width=566,height=377,role="image-custom"]
+
+{blank}
+
+==== In the 'Automatic Responses' section, image:./media/icon/3.svg[selcting officer, 16, 16], you will see a list of data fields.
+
+* Select the checkboxes next to each piece of information you wish to be
+automatically included in the survey response. This could include the
+officer's first name, last name, collar number, team, rank, department,
+and specifics of the patrol like the geofence name, start and end times,
+duration, and whether the patrol was successful.
+
+* Note that these details are pulled from the system and will not appear
+as questions for the officer to answer. Instead, they are silently
+captured in the background for administrative and analytical purposes.
+
+==== Add New Section image:./media/icon/4.svg[selcting officer, 16, 16]
+
+* This will allow you to create additional sections within the survey,
+where you can pose questions tailored to the specific objectives of the
+survey or the operation being assessed.
+
+* When you select 'Add New Section,' a default new section is created
+within the survey.
+
+{blank}
+
+image:./media/media/image59.png[image,width=601,height=162,role="image-custom"]
+
+{blank}
+
+* To rename the header of this section, click on the edit box text that
+is labelled image:./media/icon/5.svg[selcting officer, 16, 16]. This is the section title, which you can edit to
+reflect the content or focus of the questions you plan to include in
+this part of the survey.
+
+==== Add New Questions:
+
+* To begin populating the section with questions, click on the '+ Add
+new question' button, indicated by image:./media/icon/6.svg[selcting officer, 16, 16].
+
+* Upon clicking, you will be presented with a list of available question
+types. Choose the questions that are most appropriate for the section or
+create custom questions that align with the survey's objectives.
+
+As you continue to build your survey, each section can be tailored to
+focus on different aspects of the officer's duties, experiences, or
+feedback on specific operations. Ensure each question added serves a
+clear purpose and contributes to the overall goal of the survey. Save
+your progress frequently to avoid data loss, especially when working on
+detailed sections or adding multiple questions.
+
+<<<
+
+=== Supported Question Types
+
+Different question types are used in surveys to match the right kind of
+information being asked—like numbers for counting, yes/no for quick
+checks, or maps for locations. This helps in getting clear and useful
+answers easily. The following types of questions are supported:
+
+[cols="<1,2", options="header"]
+|===
+|*Question Type* |*Description*
+
+|String |Use this type for open-ended text responses where officers can
+input any alphanumeric characters. +
+Ideal for subjective questions or when detailed descriptions are
+required.
+
+|Integer |Choose this type for numerical responses that do not require
+decimals. Suitable for quantifiable data, like the number of patrols completed.
+
+|Boolean (Yes/No) |This type is for questions that have a binary
+response: Yes or No. +
+Useful for confirmations or closed questions requiring a
+straightforward response.
+
+|Decimal |Select decimal for numerical responses where fractions are
+relevant. +
+Appropriate for precise measurements, such as distances or times.
+
+|Date Time |Use Date Time for responses that require a specific date and
+time. +
+Ideal for logging events or incidents with a timestamp.
+
+|Single Choice |Choose Single Choice for questions where only one option
+from a predefined set can be selected. +
+Suitable for multiple-choice questions where only one answer is
+correct.
+
+|Multiple Choice |Use Multiple Choice for questions that allow more than
+one answer to be selected from a list. +
+Great for questions where all applicable options should be
+considered.
+
+|Rating |Select Rating for questions that ask for a value judgement or
+assessment, typically on a scale. +
+Can be used for satisfaction, performance, or agreement level
+queries.
+
+|Geolocation |Allows the officer to select a specific location from a
+map. +
+This is particularly useful for validating the location of an officer
+during an incident or patrol.
+
+|===
+
+=== Branching Rules and Validations
+
+To ensure the survey form creation process is both efficient and
+logical, a set of rules and validations are in place. These guidelines
+are designed to streamline the creation of surveys.
+
+==== General Rules for Structure:
+
+* *Minimum Question Requirement:* Each section within the survey must
+contain at least one question. This ensures that every part of the
+survey has a purpose and gathers information.
+
+* *Question Titles:* Every question must have a title. The title acts as
+a clear prompt for the respondent, indicating what information is being
+sought.
+
+* *Branching Logic Targets:* For questions that lead to different
+follow-up questions or sections based on the answer (branch actions), a
+specific target for each possible answer must be set. This target could
+be another question or a different section of the survey.
+
+* *End Path Assurance:* There needs to be a clear path through the
+survey questions and sections that leads respondents to the end of the
+survey. This rule guarantees that every respondent can complete the
+survey without getting stuck.
+
+* *Default Next Questions:* For questions without specific branch
+actions, the survey will automatically proceed to the next question.
+However, this default progression can be changed to redirect to a
+different question or section as needed.
+
+==== Branching Actions and Logic:
+
+* *No Duplicate Actions:* Within the branching logic, you can't have
+repeated actions. Each branch action must lead to a unique next step,
+ensuring clarity in the survey’s flow.
+
+* *Branching Restrictions:* Questions of the type 'String' (text input)
+and 'Geolocation' (location selection) only allow default branching to
+another question and do not allow question branching. The image below
+shows the difference between these 2 types of branching options. image:./media/icon/1.svg[selcting officer, 16, 16] Is
+default main level branching and image:./media/icon/2.svg[selcting officer, 16, 16] is the question response branching.
+The image below shows how this is presented:
+
+{blank}
+
+image:./media/media/image60.png[image,width=566,height=415,role="image-custom"]
+
+{blank}
+
+* *Question Order:* The order of questions with branching is important.
+It's not possible to traverse back up the question chain from a branch.
+If a question is part of a branch then this should come before the main
+survey questions when possible.
+
+<<<
+
+=== Creating a Branched Question Survey
+
+Following on from the previous steps we will now create the following
+Yes/No example survey:
+
+{blank}
+
+image:./media/media/image61.png[image,width=415,height=415,role="image-custom"]
+
+{blank}
+
+* image:./media/icon/1.svg[selcting officer, 16, 16] Add a new question
+* image:./media/icon/2.svg[selcting officer, 16, 16] Click on Yes/No
+
+{blank}
+
+image:./media/media/image62.png[image,width=755,height=529,role="image-custom"]
+
+{blank}
+
+* image:./media/icon/3.svg[selcting officer, 16, 16] Complete the question title
+* image:./media/icon/4.svg[selcting officer, 16, 16] Decide if the answer should be pre-selected to be “yes”
+* image:./media/icon/5.svg[selcting officer, 16, 16] Add the next question and choose “Number”. The add branch will be
+disabled until there is at least one other question is available to be
+branched to.
+
+{blank}
+
+image:./media/media/image63.png[image,width=755,height=491,role="image-custom"]
+
+{blank}
+
+* image:./media/icon/6.svg[selcting officer, 16, 16] This is the question number
+* image:./media/icon/7.svg[selcting officer, 16, 16] Complete the question title and add another question and complete
+the title.
+
+{blank}
+
+image:./media/media/image64.png[image,width=755,height=529,role="image-custom"]
+
+{blank}
+
+* image:./media/icon/8.svg[selcting officer, 16, 16] Go back to Question 01 and
+* image:./media/icon/9.svg[selcting officer, 16, 16] Add 2 “equals” branches.
+
+{blank}
+
+image:./media/media/image65.png[image,width=755,height=453,role="image-custom"]
+
+{blank}
+
+<<<
+
+* image:./media/icon/10.svg[selcting officer, 16, 16] Now configure the branch (10)
+* image:./media/icon/11.svg[selcting officer, 16, 16] Select target (11)
+
+{blank}
+
+image:./media/media/image66.png[image,width=755,height=529,role="image-custom"]
+
+{blank}
+
+<<<
+
+The first question should now look like this:
+
+{blank}
+
+image:./media/media/image67.png[image,width=755,height=529,role="image-custom"]
+
+{blank}
+
+<<<
+
+* image:./media/icon/12.svg[selcting officer, 16, 16] To complete the survey, click “Save”.
+
+{blank}
+
+image:./media/media/image68.png[image,width=755,height=529,role="image-custom"]

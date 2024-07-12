@@ -1,0 +1,477 @@
+[[officers]]
+= 5. Officers
+
+{blank}
+
+image:./media/media/image21.png[image,width=755,height=377,role="image-custom"]
+
+{blank}
+
+
+This section of the application provides an overview of all officers
+within the system. It is designed to give you quick access to their
+contact information, departmental details, team assignments, geofence
+assignments and current duty status.
+
+Key Features:
+
+
+* Displays officer names alongside their collar number, contact
+details, ranks, and assigned team.
+* Each officer's entry includes their role within the department and
+any geofences they are assigned to.
+* The 'Status' indicator shows whether an officer is currently on
+duty.
+
+<<<
+
+=== Search Functionality
+
+
+Utilise the search bar to find officers by name or collar number.
+
+{blank}
+
+image:./media/media/image22.png[image,width=755,height=453,role="image-custom"]
+
+{blank}
+
+<<<
+
+=== Filter Options
+
+{blank}
+
+image:./media/media/image23.png[image,width=755,height=340,role="image-custom"]
+
+{blank}
+
+This interface enables users to apply multiple filters to the officer
+list, streamlining the process of managing and locating officer
+information. +
+Filters are categorised by officer attributes such as ranks,
+departments, teams, and duty status. By selecting one or multiple
+filters, you can create a focused list tailored to your search criteria.
+
+'''
+
+=== Applying Filters:
+
+To apply a filter, click on the filter category and select your criteria
+from the dropdown menu or check the corresponding boxes. Your list will
+automatically update to reflect your selections. You can apply multiple
+filters at once for a more precise refinement.
+
+'''
+
+=== Adjusting and Clearing Filters:
+
+Filters can be adjusted at any time during your search. To remove a
+specific filter, simply deselect it or use the 'Clear' option to remove
+all filters and start anew. This flexibility allows you to seamlessly
+switch between broad overviews and granular views of officer data.
+
+=== Tips
+* Use multiple filters simultaneously for the most effective narrowing of officer data.
+* Remember to clear filters to return to the full officer list when needed. 
+
+'''
+
+=== Individual Officer Actions
+
+{blank}
+
+image:./media/media/image24.png[image,width=755,height=330,role="image-custom"]
+
+{blank}
+
+Clicking on the action icon (three vertical dots) next to an officer's
+name brings up a menu with several options:
+
+<<<
+
+*Edit Details:* This opens a form to update an officer's personal and contact information.
+
+{blank}
+
+image:./media/media/image25.png[image,width=302,height=529,role="image-custom"]
+
+{blank}
+
+<<<
+
+*Officer Details:* Access a complete profile of the officer, including
+contact information, rank, department, team, location history and past
+activities.
+
+{blank}
+
+image:./media/media/image26.png[image,width=755,height=529,role="image-custom"]
+
+{blank}
+
+<<<
+
+*Update Team:* Here you can reassign the officer to a different team or
+add them to a new team.
+
+{blank}
+
+image:./media/media/image27.png[image,width=302,height=566,role="image-custom"]
+
+{blank}
+
+<<<
+
+*Update Geofences:* Modify the specific geographic zones where the officer
+is designated to patrol.
+
+{blank}
+
+image:./media/media/image28.png[image,width=321,height=566,role="image-custom"]
+
+{blank}
+
+<<<
+
+*Update Role:* Change the officer's designated role within the system,
+which may affect their access to certain system functionalities or
+define their responsibilities within their team or department.
+
+See Roles for more information,
+
+{blank}
+
+image:./media/media/image29.png[image,width=286,height=524,role="image-custom"]
+
+{blank}
+
+<<<
+
+*Send Survey:* Initiate the dispatch of an ad-hoc survey or questionnaires
+to the officer.
+
+image:./media/media/image30.png[image,width=286,height=450,role="image-custom"]
+
+*Delete:* Remove an officer from the system.
+
+image:./media/media/image31.png[image,width=280,height=180,role="image-custom"]
+
+<<<
+
+=== Officer Details
+
+{blank}
+
+image:./media/media/image32.png[image,width=755,height=453,role="image-custom"]
+
+{blank}
+
+===== How to Import and Assign Officers in the System
+
+To streamline the integration of officers from your Active Directory
+(AD) into the application, we offer two import methods:
+
+<<<
+
+* *Manual Import:*
+
+** Click on the 'Import' button at the top of the screen.
+
++
+
+image:./media/media/image33.png[image,width=377,height=188,role="image-custom"]
+
++
+
+
+** From the dropdown, select 'Manually Import'.
+
++
+
+image:./media/media/image34.png[image,width=377,height=188,role="image-custom"]
+
++
+
+** Enter in your network password
+
++
+
+image:./media/media/image35.png[image,width=340,height=207,role="image-custom"]
+
++
+
+** You will be presented with a list of officers from your AD account.
+See importing officer’s configuration for further details
+
++
+
+image:./media/media/image36.png[image,width=290,height=297,role="image-custom"]
+
++
+
+<<<
+
+* *Bulk Import* +
+This method is particularly useful when dealing with large numbers of
+officers, as it automates the selection process based on the data
+provided in the file.
+
+** Click on the 'Import' button at the top of the screen.
+
++
+
+image:./media/media/image33.png[image,width=302,height=188,role="image-custom"]
+
++
+
+** Choose 'Bulk Import' from the dropdown menu.
+
++
+
+image:./media/media/image34.png[image,width=302,height=188,role="image-custom"]
+
++
+
+** Enter in your network password
+
++
+
+image:./media/media/image35.png[image,width=302,height=188,role="image-custom"]
+
++
+
+** You will be prompted to upload a CSV file. Ensure your CSV file is
+formatted correctly, with each officer's collar number and role within
+the system. Download the sample CSV in order to see the format and
+required fields.
+
++
+
+image:./media/media/image37.png[image,width=286,height=302,role="image-custom"]
+
+{blank}
+
+<<<
+
+===== Roles and Permissions
+
+[cols="<1,2,1,1,1,1", options="header"]
+|===
+|Resource/ Feature |Actions |Administrator |Manager |Supervisor |User
+|Areas |Get all |*Y* |*Y* |*Y* |N
+
+|Areas |Import |*Y* |N |N |N
+
+|Areas |Update |*Y* |N |N |N
+
+|Areas |Delete |*Y* |N |N |N
+
+|Geofences |Get all |*Y* |*Y* |N |N
+
+|Geofences |Create |*Y* |*Y* |N |N
+
+|Geofences |Import |*Y* |*Y* |N |N
+
+|Geofences |Update |*Y* |*Y* |N |N
+
+|Geofences |Delete |*Y* |*Y* |N |N
+
+|Geofences |Read assigned form |*Y* |*Y* |N |N
+
+|Geofences |Assign/Change form |*Y* |*Y* |N |N
+
+|Geofences |Get assigned officers |*Y* |*Y* |N |N
+
+|Geofences |Assign/Unassign officers |*Y* |*Y* |N |N
+
+|Geofences |Get assigned teams |*Y* |*Y* |N |N
+
+|Geofences |Assign/Unassign teams |*Y* |*Y* |N |N
+
+|Geofences |Get assigned officer's analytics and tracking |*Y* |*Y* |N |N
+
+|Geofences |Get patrols activities |*Y* |*Y* |N |N
+
+|Geofences |Get patrols heatmap |*Y* |*Y* |N |N
+
+|Geofences |Get patrol summary |*Y* |*Y* |N |N
+
+|Officers |Get new importable officers from AD |*Y* |*Y* |*Y* |N
+
+|Officers |Bulk import from AD (Manual or using CSV) |*Y* |*Y* |*Y* |N
+
+|Officers |Get all profiles (including closed team's members) |*Y* |N |N |N
+
+|Officers |Get all profiles (excluding closed team's members) |*Y* |*Y* |*Y* |N
+
+|Officers |Update profile information |*Y* |*Y* |*Y* |N
+
+|Officers |Update team |*Y* |*Y* |N |N
+
+|Officers |Delete |*Y* |*Y* |*Y* |N
+
+|Officers |Get role of any officer |*Y* |*Y* |*Y* |N
+
+|Officers |Get all possible roles |*Y* |N |N |N
+
+|Officers |Change role |*Y* |N |N |N
+
+|Officers |Revoke access |*Y* |N |N |N
+
+|Officers |Get assigned geofences |*Y* |*Y* |N |N
+
+|Officers |Update assigned geofences |*Y* |*Y* |N |N
+
+|Officers |Send survey (Url or Form) |*Y* |*Y* |N |N
+
+|Officers |Activites (including closed team members) |*Y* |N |N |N
+
+|Officers |Activites (excluding closed team members) |*Y* |*Y* |*Y* |N
+
+|Officers |Get location trail (including closed team members) |*Y* |N |N |N
+
+|Officers |Get location history (excluding closed team members) |*Y* |*Y* |*Y* |N
+
+|Officers |Real time locations (including closed team members) |*Y* |N |N |N
+
+|Officers |Real time locations (excluding closed team members) |*Y* |*Y* |*Y* |N
+
+|Officers |Get summary |*Y* |*Y* |*Y* |
+
+|Forms |Get All |*Y* |*Y* |N |N
+
+|Forms |Create |*Y* |*Y* |N |N
+
+|Forms |Duplicate |*Y* |*Y* |N |N
+
+|Forms |Update |*Y* |*Y* |N |N
+
+|Forms |Delete |*Y* |*Y* |N |N
+
+|Teams |Get All (including closed) |*Y* |N |N |N
+
+|Teams |Get All (excluding all closed except their own team) |*Y* |*Y* |*Y* |N
+
+|Teams |Create |*Y* |N |N |N
+
+|Teams |Update config/details |*Y* |*Y* |*Y* |N
+
+|Teams |Delete |*Y* |N |N |N
+
+|Teams |Update/Remove assigned area |*Y* |N |N |N
+
+|Teams |Close/Open |*Y* |N |N |N
+
+|Teams |Get assigned officers |*Y* |*Y* |*Y* |N
+
+|Teams |Assign/Unassign officers |*Y* |*Y* |*Y* |N
+
+|Teams |Send survey to whole team (Url or Form) |*Y* |*Y* |N |N
+
+|Teams |Get assigned geofences |*Y* |*Y* |N |N
+
+|Teams |Update assigned geofences |*Y* |*Y* |N |N
+
+|Teams |Get summary (including closed) |*Y* |N |N |N
+
+|Teams |Get summary (excluding all closed except their own team) |*Y* |*Y* |*Y* |N
+
+|Responses |Get All |*Y* |*Y* |N |N
+
+|Responses |Get summary |*Y* |*Y* |N |N
+
+|General |Search Officers, Teams and Areas |*Y* |*Y* |*Y* |N
+
+|General |Search Officers, Teams, Geofences and Areas |*Y* |*Y* |N |N
+|===
+
+<<<
+
+===== Importing officer’s configuration
+
+{blank}
+
+image:./media/media/image38.png[image,width=755,height=453,role="image-custom"]
+
+{blank}
+
+On this screen, you will select and configure officers from your Active
+Directory into the Visibeat application. Follow these steps to
+effectively manage officer assignments and responsibilities:
+
+* *Selecting Officers:* Review the list of officers with their contact
+information, rank, department, and team. The list provides a checkbox
+next to each officer's name for easy selection.
+
+* *Assigning Teams:* Once you have selected the officers to import, you
+can assign them to specific teams based. Click on the 'Assign team'
+button beside an officer's name to make your selection.
+
+* *Designating Roles:* After assigning teams, you can further specify
+each officer's role within the team. Use the 'Assign role' button to
+access the role options and select the appropriate one for each officer.
+
+* *Allocating Geofences:* To ensure officers are monitoring the correct
+areas, you can allocate geofences individually. The 'Assign geofences'
+button allows you to define the geographical boundaries each officer is
+responsible for.
+
+<<<
+
+===== Bulk Assignment of Teams, Geofences and Roles
+
+* The system also allows for bulk updates of the team, geofence, or role
+for multiple officers:
+
++
+
+image:./media/media/image39.png[image,width=680,height=491,role="image-custom"]
+
++
+
+{blank}
+
++
+
+--
+image:./media/icon/1.svg[selcting officer, 16, 16]  &#160; *Selecting Officers:*
+
+* To start, check the boxes next to the officers' names you wish to
+update. The checkboxes are located to the left of each officer’s
+information.
+
+* The number of officers you have selected will be displayed at the
+bottom of the screen, confirming your selections for the bulk update.
+
+image:./media/icon/2.svg[selcting officer, 16, 16] &#160;  *Assigning Bulk Updates:*
+
+* With officers selected, navigate to the bottom action bar to access
+the bulk assignment options.
+
+* Click on:
+** Assign Team to set a new team for the selected officers.
+** Assign Geofences to define new boundaries they will be responsible
+for.
+** Update Role to modify their roles within the organisation.
+
+<<<
+
+image:./media/icon/3.svg[selcting officer, 16, 16] &#160;  *Finalising Your Selections:*
+
+** Review your assignments to ensure they are correct.
+
+** Click the 'Save' button to apply your bulk updates to the system.
+
+** If you` need to undo any selections or make further changes, you can
+deselect officers or alter their assigned team, geofence, or role
+before saving.
+
+--
+
+* *Searching for Officers*: If you are looking for specific officers,
+use the search bar at the top to filter the list.
+
+* *Save or Back:* After you have made all your assignments, be sure to
+click 'Save' to confirm the changes. If you need to revert or revisit
+the previous page, use the 'Back' button.

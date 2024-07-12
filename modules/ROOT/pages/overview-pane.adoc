@@ -1,0 +1,55 @@
+[[overview-pane]]
+= 3. Overview Pane
+
+{blank}
+
+image:./media/media/image6.png[image,width=755,height=132,role="image-custom"]
+
+{blank}
+
+The 4 metric widgets on the main home screen offer a quick overview of
+the current state of hotspot policing efforts. These widgets display
+essential data points related to active officers, active teams, and
+patrols started, and surveys sent.
+
+
+*Active Officers:* This displays the number of officers currently on duty
+and engaged in hotspot policing activities. This metric helps
+supervisors monitor the availability and deployment of their workforce
+in real-time. Clicking on this widget will take you to the officer list
+with the on-duty filter applied
+
+*Active Teams:* This widget shows the number of teams currently active
+with at least 1 officer on duty, participating in hotspot policing
+efforts. By tracking this metric, supervisors can ensure that an
+adequate number of teams are deployed to cover designated geofence areas
+effectively. Clicking on this widget will take you to the team list with
+the on duty filter applied
+
+*Patrols Started:* This widget provides the total number of patrols that
+have been initiated on the current day. This metric allows supervisors
+to monitor the progress of daily hotspot policing activities and ensure
+that officers are conducting patrols as scheduled.
+
+Clicking on this widget will apply a filter to the activities list so
+that only the “Patrol Started” events for the current day are shown:
+
+image:./media/media/image7.png[image,width=250,height=250,role="image-custom"]
+
+{blank}
+
+*Surveys Sent:* This widget displays the number of surveys that have been
+sent out to officers on the current day. Surveys are typically sent to
+officers after they have completed their patrols, to gather detailed
+information about their observations, activities, and any incidents that
+occurred during the patrol. By tracking this metric, supervisors can
+ensure that officers are completing their post-patrol surveys in a
+timely manner, enabling the collection of valuable data for analysis and
+decision-making.
+
+Clicking on this widget will apply a filter to the activities list so
+that only the “Survey Sent” events for the current day are shown:
+
+{blank}
+
+image:./media/media/image8.png[image,width=250,height=250,role="image-custom"]

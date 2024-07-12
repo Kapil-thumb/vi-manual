@@ -1,0 +1,138 @@
+[[map-functionality]]
+= 4. Map Functionality
+
+=== Search & Filtering
+
+{blank}
+
+image:./media/media/image9.png[image,width=755,height=264,role="image-custom"]
+
+{blank}
+
+The search bar located at the top of the maps allows for searching on
+the following keywords:
+
+* Collar number
+* Officer first and last name
+* Geofence name
+* Team and officers assigned to team
+
+
+In addition to the search bar there is also the filtering options to
+help users narrow down their search results based on specific criteria:
+
+<<<
+
+*All teams:* This filter allows users to view search results related to
+all teams involved in hotspot policing efforts. It's also possible
+search and apply a filter for multiple teams.
+
+{blank}
+
+image:./media/media/image10.png[image,width=286,height=268,role="image-custom"]image:./media/media/image11.png[image,width=283,height=491,role="image-custom"]
+
+{blank}
+
+<<<
+
+*All areas:* When selected, this filter will zoom the map view to the
+geographic extent of the selected area. Multiple areas can be enabled.
+
+{blank}
+
+image:./media/media/image12.png[image,width=642,height=529,role="image-custom"]
+
+{blank}
+
+<<<
+
+*All geofences:* This filter option enables users to filter the map view
+to only show specific geofences. You can apply multiple filters
+simultaneously to further refine your search results.
+
+{blank}
+[cols="<,<",]
+|===
+|image:./media/media/image13.png[image,width=359,height=340,role="image-custom"]
+|image:./media/media/image14.png[image,width=359,height=340,role="image-custom"]
+|===
+
+{blank}
+
+<<<
+
+=== Officer Details
+
+{blank}
+
+image:./media/media/image15.png[image,width=755,height=453,role="image-custom"]
+
+{blank}
+
+Clicking on the officer's collar number will bring up the details of
+that particular officer.
+
+The timeline feature (seen on the right-hand side) can be used to view
+the officer's activity and location history.
+
+<<<
+
+=== Detailed Officer Activity and Patrol Route
+
+{blank}
+
+image:./media/media/image16.png[image,width=755,height=340,role="image-custom"]
+
+{blank}
+
+===== Activity Details Panel (Left):
+
+* *Profile & Badge Number:* Displays Officer name, collar number and assigned team.
+
+* *Activity Timeline:* Lists the officer's actions over the past 24 hours, including:
+** *Duty Status:* Times when the officer began and ended their duty.
+** *Stationary Points:* Moments when the officer was stationary, with durations.
+** *Patrol Intervals:* Specific periods the officer was patrolling, the area covered, and any pauses or completions in patrol.
+** *Movement Details:* Periods of walking or driving, including exact time and duration for each segment of movement.
+
+* *Activity Types:* Icons indicate the type of activity, such as beginning of duty, walking, or driving.
+
+===== Patrol Route Map Panel (Right):
+
+* *Patrol Path:* Shows the officer's location history with lines linking
+activity events, providing a visual trail of the officer’s movements.
+* *Activity Markers:* Correspond to the left panel's timeline, allowing
+users to visually match map locations with logged activities.
+
+=== Interaction between Activity Log and Map Location
+Clicking on a time-stamped event within the activity log highlights the
+associated action on the map, such as the start or end of a patrol
+segment, indicated by distinct icons (e.g., badge for duty status,
+walking figure for patrol).
+
+** Example of duty turned on +
+
+image:./media/media/image17.png[image,width=600,height=280,role="image-custom"]
+
+{blank}
+
+** Example of walking +
+
+image:./media/media/image18.png[image,width=600,height=380,role="image-custom"]
+
+{blank}
+
+<<<
+
+=== Activities Feed
+
+{blank}
+
+image:./media/media/image19.png[image,width=286,height=281,role="image-custom"]image:./media/media/image20.png[image,width=263,height=450,role="image-custom"]
+
+{blank}
+
+Users can search for specific activities by entering an officer's collar
+number or a geofence name in the search bar located at the top of the
+activity pane. Additionally, the system allows users to filter
+activities based on a date range, activity type or specific officers.

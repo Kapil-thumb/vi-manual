@@ -1,0 +1,184 @@
+[[geofences]]
+= 8. Geofences
+
+A geofence is a virtual boundary defined by points drawn on the map,
+creating a geographic area that can be dynamically monitored. A geofence
+is pivotal in organising and managing patrol schedules for police
+officers. They serve to streamline patrols, ensuring officers cover
+necessary areas and adhere to operational protocols.
+
+{blank}
+
+image:./media/media/image49.png[image,width=755,height=453,role="image-custom"]
+
+{blank}
+
+Upon an officer's entry into a geofence, the system commences a timer to
+track the duration of their patrol within this virtual boundary. The
+success of a patrol is contingent upon fulfilling a predetermined time
+requirement within the geofence.
+
+Configuring a geofence in Visibeat is user-centric, allowing for the
+customisation of various parameters including patrol duration and survey
+intervals. Notifications are generated when officers enter and exit a
+geofence, and officers may be prompted to complete surveys post-patrol
+to gather valuable data and feedback.
+
+Geofences are versatile in application, capable of being associated with
+either teams for collective area management or with individual officers
+for specific assignments. Additional customization options include
+adjusting the geofence's perimeter points, and providing essential
+information such as title, name, category, and description, offering a
+comprehensive approach to area management and monitoring.
+
+* * *
+
+=== Managing Geofences
+
+{blank}
+
+image:./media/media/image50.png[image,width=656,height=378,role="image-custom"]
+
+{blank}
+
+==== Key Functionalities:
+
+image:./media/icon/1.svg[selcting officer, 16, 16]&#160; *Search:* Utilise the search bar to quickly find a geofence by
+entering its name. The search will also work on a partial name and
+search utilise the search bar to quickly find a geofence by entering its
+name. The search will also work on a partial name and will match any
+part of the geofence name.
+
+image:./media/icon/2.svg[selcting officer, 16, 16]&#160; *Import:* Add new geofences to the system in bulk by importing from
+a prepared file.
+
+image:./media/icon/3.svg[selcting officer, 16, 16]&#160; *Add New:* Create a single new geofence directly within the
+application.
+
+image:./media/icon/4.svg[selcting officer, 16, 16]&#160; *Filters:* Refine the list of geofences shown by selecting
+categories or status from the 'Filters' dropdown menu.
+
+<<<
+
+=== Adding a New Geofence:
+
+{blank}
+
+image:./media/media/image51.png[image,width=809,height=499,role="image-custom"]
+
+{blank}
+
+==== Key Functionalities:
+
+image:./media/icon/1.svg[selcting officer, 16, 16]&#160; *Geofence Boundary Points:* Click on the map to place boundary
+points. Each point can be moved or deleted after placement. Double-click
+on the last point to complete the shape of your geofence. Ensure all
+sides are closed to form a continuous boundary.
+
+image:./media/icon/2.svg[selcting officer, 16, 16]&#160; *Clear Button:* Use this button to remove all boundary points from
+the map. This action will reset the current geofence shape, allowing you
+to start drawing a new boundary from scratch
+
+image:./media/icon/3.svg[selcting officer, 16, 16]&#160; *Title:* Assign a concise, descriptive title to your geofence for
+easy identification.
+
+image:./media/icon/4.svg[selcting officer, 16, 16]&#160; *Category:* Select an appropriate category from the dropdown list
+that best describes the nature of the geofence.
+
+image:./media/icon/5.svg[selcting officer, 16, 16]&#160; *Description:* Provide details about the geofence and its purpose.
+
+image:./media/icon/6.svg[selcting officer, 16, 16]&#160; *Colour:* Choose a colour from the available options to visually
+distinguish your geofence on the map.
+
+image:./media/icon/7.svg[selcting officer, 16, 16]&#160; *Add Geofence Button:* Click this button to save the geofence
+configuration. Once saved, the geofence will be active according to the
+settings you've configured.
+
+After adding the geofence the following screen will be shown:
+
+{blank}
+
+image:./media/media/image52.png[image,width=902,height=513,role="image-custom"]
+
+{blank}
+
+image:./media/icon/1.svg[selcting officer, 16, 16]&#160; *Edit Button:* Click 'Edit' to adjust the existing geofence settings
+such as boundaries, title, and description.
+
+image:./media/icon/2.svg[selcting officer, 16, 16]&#160; *Delete Button:* Use the 'Delete' button to permanently remove the
+geofence; be aware this action cannot be undone.
+
+image:./media/icon/3.svg[selcting officer, 16, 16]&#160; *Geofence Details:* Displays details including the version number of
+the geofence and its creation date and time, providing a snapshot of its
+history and updates.
+
+image:./media/icon/4.svg[selcting officer, 16, 16]&#160; *Creator/Modifier Information:* Shows the name of the person who
+created or last modified the geofence, useful for identifying who to
+contact for further information or changes.
+
+<<<
+
+=== Editing a Geofence
+
+{blank}
+
+image:./media/media/image53.png[image,width=748,height=465,role="image-custom"]
+
+{blank}
+
+==== Key Functionalities:
+
+--
+
+image:./media/icon/1.svg[selcting officer, 16, 16]&#160; Select a point on the geofence
+
+image:./media/icon/2.svg[selcting officer, 16, 16]&#160; And drag to a new location in order to update the area.
+
+image:./media/icon/3.svg[selcting officer, 16, 16]&#160; Reset Button: Click 'Reset' to revert the geofence to its previously
+saved configuration, undoing any unsaved changes
+
+image:./media/icon/4.svg[selcting officer, 16, 16]&#160; Clear Button: Use the 'Clear' button to remove all boundary points,
+allowing you to start drawing a new geofence from scratch.
+
+--
+
+* The remaining geofence configuration parameters can be modified in
+the same manner as when creating a new geofence.
+
+* Once editing is complete click “Save”.
+
+=== Adjusting Geofence Boundaries
+
+{blank}
+
+image:./media/media/image54.png[image,width=590,height=453,role="image-custom"]
+
+{blank}
+
+* To reposition a geofence on the map:
+
+** Move your cursor over the boundary until the cursor icon changes to
+a hand image:./media/icon/1.svg[selcting officer, 16, 16].
+
+* Click and hold the left mouse button to grab the geofence.
+
+** Drag the geofence to the desired location. Release the mouse button
+to drop the geofence into place image:./media/icon/2.svg[selcting officer, 16, 16].
+
+<<<
+
+=== Reverting Changes in Geofence Editing
+
+{blank}
+
+image:./media/media/image55.png[image,width=561,height=483,role="image-custom"]
+
+{blank}
+
+* image:./media/icon/1.svg[selcting officer, 16, 16] If you need to revert a recent adjustment made to a geofence point:
+
+** Click the 'Undo' icon to revert the last action taken during
+geofence editing.
+
+* This allows for quick correction of any unintentional changes while
+modifying geofence boundaries.

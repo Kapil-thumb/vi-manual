@@ -1,0 +1,47 @@
+[[document-reference]]
+= 11. Document Reference
+
+.Document Signatories
+[cols="<1,1,1,1", options="header"]
+|===
+| Author  |Role  |Signature(s) |Date
+|Mark Bryan
+|Director
+|
+|29/3/2024
+
+|===
+
+{blank}
+
+.Document Amendment Record
+[cols="<1,3,2,1,1", options="header"]
+|===
+| Version No. |Amendment Detail  |Author |Date |Approved
+|1.0
+|Initial Release
+|Mark Bryan
+|29/3/2024
+|
+
+|2.0
+|Patrol scheduling
+|Mark Bryan
+|19/06/2024
+|
+
+|===
+
+{blank}
+
+[cols="<1", options="header"]
+|===
+|*Disclaimer*
+|This document has been prepared by Thumbmunkeys in good faith. This
+document is, however, supplied on the basis that Thumbmunkeys accepts no
+liability for statements made in the document or for conclusions drawn
+or action taken. The liability for statements made in the document or
+for conclusions drawn or action taken. The liability accepted by
+Thumbmunkeys will be determined by the terms of such a contract.
+|===
+

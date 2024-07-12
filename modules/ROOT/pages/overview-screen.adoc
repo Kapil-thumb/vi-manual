@@ -1,0 +1,49 @@
+[[overview-screen]]
+= 2. Overview Screen
+
+{blank}
+
+image:./media/media/image2.png[image,width=813,height=330,role="image-custom"]
+
+{blank}
+
+The main screen features an interactive map that displays the city
+layout, streets, and designated geofence areas. Officers can use this
+map to navigate to their assigned geofences and view real-time
+information about ongoing patrols and incidents in their vicinity.
+
+Here's a quick guide to the key features you'll find on the main mapping
+interface:
+
+{blank}
+
+image:./media/media/image3.png[image,width=831,height=566,role="image-custom"]
+
+{blank}
+
+image:./media/icon/1.svg[selcting officer, 16, 16] This indicates the total number of online officers within the area. 
+
+{blank}
+
+Clicking the numbered circle will automatically zoom the map to the
+extents of all officers:
+
+image:./media/media/image4.png[image,width=500,height=280,role="image-custom"]
+
+{blank}
+
+image:./media/icon/2.svg[selcting officer, 16, 16] Switch between map view and satellite view. 
+
+{blank}
+
+image:./media/media/image5.png[image,width=500,height=280,role="image-custom"]
+
+{blank}
+
+image:./media/icon/3.svg[selcting officer, 16, 16] This expands the map to a full-screen view, offering a more detailed
+and less cluttered view of the map. It's designed to help administrators
+focus on the map without the distraction of other interface elements.
+
+image:./media/icon/4.svg[selcting officer, 16, 16] Zoom Controls (+/- icons): These are standard map zoom controls
+where the plus icon allows users to zoom in for a closer view, and the
+minus icon allows users to zoom out to see a larger area.
